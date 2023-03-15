@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+.advice {
+    background-color: hsl(218, 19%, 38%);
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+#adviceID {
+    color: hsl(150, 100%, 66%);
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+
+.break {
+    font-size: 20px;
+
+}
+
+#btn {
+    font-size: 20px;
+    padding: 10px;
+    background-color: hsl(150, 100%, 66%);
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
