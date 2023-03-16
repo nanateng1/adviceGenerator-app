@@ -40,12 +40,6 @@ main {
 }
 
 
-/* .break {
-    font-size: 15px;
-    padding-bottom: 20px;
-
-} */
-
 #btn {
     padding: 12px;
     background-color: hsl(150, 100%, 66%);
@@ -59,10 +53,6 @@ main {
 hr {
     width: 50px;
 }
-/* .break::before {
-    content: '';
-    border: 1px solid;
-} */
 
 .divider {
     padding: 20px 0;
@@ -76,6 +66,23 @@ svg {
 .hidden {
     display: none;
 }
+
+@media screen  and (max-width:400px){
+    .advice {
+        background-color: hsl(217, 19%, 24%);
+        max-width: 375px;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        position: relative;
+    }
+    
+}
+
+/* Loader animation */
+
 .loader {
     width: 3.25em;
     transform-origin: center;
