@@ -67,6 +67,10 @@ svg {
     display: none;
 }
 
+.attribution {
+    align-self: self-end;
+}
+
 @media screen  and (max-width:400px){
     .advice {
         background-color: hsl(217, 19%, 24%);
