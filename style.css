@@ -18,13 +18,18 @@ body {
 
 .advice {
     background-color: hsl(217, 19%, 24%);
-    max-width: 450px;
-    height: auto;
+    min-width: 450px;
+    min-height: 200px;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     color: white;
     position: relative;
+}
+
+#adviceMsg {
+    max-width: 400px;
+    margin: 20px auto;
 }
 
 #adviceID {
@@ -43,7 +48,12 @@ body {
     cursor: pointer;
     position: absolute;
     left: 50%;
+    bottom: -30px;
     transform: translate(-50%, 0);
+}
+
+#btn:hover {
+    box-shadow: 0px 0px 20px hsl(150deg, 100%, 66%);
 }
 
 hr {
@@ -52,6 +62,8 @@ hr {
 
 .divider {
     padding: 20px 0;
+    position: fixed;
+    /* bottom: -20px; */
 }
 
 .mobile-divider {
@@ -67,9 +79,7 @@ svg {
     display: none;
 }
 
-.attribution {
-    align-self: self-end;
-}
+
 
 @media screen  and (max-width:400px){
     .advice {
