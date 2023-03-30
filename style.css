@@ -19,7 +19,7 @@ body {
 .advice {
     background-color: hsl(217, 19%, 24%);
     min-width: 450px;
-    min-height: 200px;
+    min-height: 250px;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -29,12 +29,13 @@ body {
 
 #adviceMsg {
     max-width: 400px;
-    margin: 20px auto;
+    margin: 40px auto;
+    font-size: 1.2em;
 }
 
 #adviceID {
     color: hsl(150, 100%, 66%);
-    padding: 10px;
+    padding: 12px;
     text-align: center;
     font-size: 10px;
     letter-spacing: 3px;
@@ -49,7 +50,7 @@ body {
     position: absolute;
     left: 50%;
     bottom: -30px;
-    transform: translate(-50%, 0);
+    transform: translate(-60%, 0);
 }
 
 #btn:hover {
@@ -62,8 +63,9 @@ hr {
 
 .divider {
     padding: 20px 0;
-    position: fixed;
-    /* bottom: -20px; */
+    margin: auto;
+    position: absolute;
+    bottom: 35px; 
 }
 
 .mobile-divider {
