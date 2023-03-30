@@ -92,6 +92,11 @@ svg {
         color: white;
         position: relative;
     }
+
+    #adviceMsg {
+        max-width: 300px;
+        margin: 20px auto;
+    }
     
     .divider {
         display: none;
